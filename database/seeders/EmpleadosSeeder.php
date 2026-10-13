@@ -30,6 +30,6 @@ class EmpleadosSeeder extends Seeder
         */
 
         //Empleados::factory()->count(20)->create();
-        Empleados::factory()->count(10)->inactivo()->deArea("ventas")->create();
+        Empleados::factory()->count(200)->create();
     }
 }
