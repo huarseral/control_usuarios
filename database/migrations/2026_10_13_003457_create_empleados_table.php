@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string("email",100)->nullable()->unique();
             $table->string("telefono", 20)->nullable();
             $table->unsignedTinyInteger("edad");
-            $table->enum("sexo",["masculino","femenino"]);
+            $table->enum("sexo",["masculino","femenino","otro"]);
             $table->enum("estado_civil", ["soltero","casado","conviviente","divorciado","viudo"] )->default("soltero");
             $table->string("pais",60)->default("Perú");
             $table->string("ciudad",80);

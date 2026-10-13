@@ -25,6 +25,7 @@ class Empleados extends Model
             "edad"=>"integer",
             "sueldo"=>"decimal:2",
             "activo"=>"boolean",
+            "observaciones"=>"array"
         ];
     }    
 
@@ -39,7 +40,6 @@ class Empleados extends Model
         "administracion"=>"Administración",
          "ventas"=>"Ventas",
          "tecnologia"=>"Tecnología",
-         "soporte"=>"Soporte",
          "finanzas"=>"Finanzas",
     ];
 
